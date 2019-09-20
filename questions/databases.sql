@@ -62,19 +62,20 @@ INSERT INTO reservations (customer_id, restaurant_id, arrival_at) VALUES
  *
  * 1. Can you delete a customer who has a reservation. Is this OK?
  *
- *
  * 2. Select all customers who have more than one reservation for the same restaurant and date.
- *
  *      customer    |  restaurant  |    date    | reservations
  *   ---------------+--------------+------------+--------------
  *    Homer Simpson | Moe's Tavern | 2019-01-01 |            2
  *
+ * 3. Select all customers who do NOT have a reservation on a specific date.
  *
- * 3. What if 2 customers try to make a reservation at the same time. How can we handle this?
+ * 4. What if 2 customers try to make a reservation at the same time. How can we handle this?
  *
- * 4. Will the following query be efficient in a large database? What can you do to make it efficient?
+ * 5. Will the following query be efficient in a large database? What can you do to make it efficient?
  *      SELECT c.name
  *        FROM customers c
  *        JOIN reservations r ON r.customer_id = c.id
  *        WHERE r.arrival_at = '2019-01-01 16:00:00';
+ *
+ * 6. Lets say that the query from question #5 is very slow. How are you going to debug what is wrong?
  */
