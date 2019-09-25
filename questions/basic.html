@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Hello HTML, CSS & JavaScript</title>
+    <meta name="description" content="Few HTML, CSS and JavaScript questions">
+    <meta charset="utf-8">
+    <style>
+      .container {
+        display: block;
+      }
+
+      .row {
+        display: block;
+      }
+
+      .row::after {
+        display: block;
+        content: "";
+        clear: both;
+      }
+
+      .col {
+        width: 33.3%;
+        float: left;
+        padding: 1rem;
+        outline: 1px dotted gray;
+        box-sizing: content-box;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HTML, CSS & Javascript</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <button style="padding: 0.375rem 0.75rem; border-radius: 0.25rem; font-size: 0.875rem; color: #212529; background-color: #f8f9fa; border-color: #f8f9fa; cursor: pointer;">Click me</button>
+        </div>
+        <div class="col">
+          <form action="submit.php">
+            <div>
+              <input name="omega" value="" type="text" style="font-size: 14px; padding: 0.33rem 1.33rem 0.33rem 0.33rem; border-radius: 0.25rem; border: 1px solid #ccc;" />
+              <span style="position: absolute; right: 0.5rem; top: 50%; margin-top: -0.5rem; color: red;">&Omega;</span>
+            </div>
+          </form>
+        </div>
+        <div class="col">
+          <h3>Super heroes</h3>
+          <table border="1" width="100%">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Secret identity</th>
+                <th>Powers</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+          <button style="padding: 0.375rem 0.75rem; border-radius: 0.25rem; font-size: 0.875rem; color: #fff; background-color: #007bff; border-color: #007bff; cursor: pointer; margin-top: 0.5rem;" onClick="alert('Implement me!')">Fetch heroes</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--
+  QUESTIONS
+
+  1. Why aren't the grids displayed correctly?
+  2. Do you know a better way for implementing a grid system?
+  3. The CSS here is inlined. What are the pros and cons of this approach? How would you organise the CSS in a larger project?
+  4. The Omega sign should be displyed at the right hand side of the input in the second column. Why isn't it positioned there?
+  5. There is a lot of inlined CSS, could you structure it better? Have you used a methodology for organising CSS so far?
+  6. Could you fill the "Superheroes" table (when the page is loaded) with data from https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json
+  7. The JavaScript here is inlined. What are the pros and cons of this approach? How would you organise the Javascript in a larger project?
+!>
