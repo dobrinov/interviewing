@@ -28,7 +28,7 @@ When no companies are found a text communicating this should be displayed below 
 The main requirement for the front end of the application is that it should behave as a single page application, meaning that there should not be a full page reload when a search is executed.
 
 ### Backend
-There are no specific requirements. It is up to you to decide where the data will reside, how is it going to be organised and how the search will be implemented.
+There are no specific requirements. It is up to you to decide where the data will reside (importing it in a database is preferred), how is it going to be organised and how the search will be implemented.
 Use technologies with which you are most experienced.
 
 ### Git
