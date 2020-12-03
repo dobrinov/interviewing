@@ -2,7 +2,7 @@
 As a part of this interview stage we would like to give you a coding task which solution will be the main topic of our next conversation.
 
 ## Instructions
-There is a public register with all UK companies which could be downloaded from [here](http://download.companieshouse.gov.uk/en_output.html). Implement a web application which will prvoide an UI for searching in it.
+There is a public register with all UK companies which could be downloaded from [here](http://download.companieshouse.gov.uk/en_output.html). Implement a web application which will provide an UI for searching in it.
 
 ### UI/UX Design
 The required UI is quite simple - a text input for the search string with a submit (search) button on the right side.
