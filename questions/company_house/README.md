@@ -1,4 +1,4 @@
-# DYI task (The company house)
+# DIY task (The company house)
 As a part of this interview stage we would like to give you a coding task which solution will be the main topic of our next conversation.
 
 ## Instructions
