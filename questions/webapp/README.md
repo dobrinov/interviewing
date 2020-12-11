@@ -1,8 +1,13 @@
 # DIY task
 As a part of this interview stage we would like to give you a coding task which solution will be the main topic on our next conversation.
 
+What we expect from the final solution:
+
+* Push the code to a public git reposotory (Github, Gitlab, Bitbucket, etc.) and share a link with us prior the interview. It will be nice if you have a good commit history (do not put everything in a single commit).
+* Instructions how to install and run it from a clean slate.
+* Tests for each application.
+
 Tips:
-* Write tests for each application (we will expect to see some)
 * Do not overengineer
 * Prepare to reason about design decisions
 
@@ -128,9 +133,3 @@ POST http://localhost:4567/fibonacci
 
 #### Response
 ![POST http://localhost:4567/fibonacci (form-data n=4)](saved.png)
-
-## Step 4: Version control
-Push the code to a public git reposotory (Github, Gitlab, Bitbucket, etc.) and share a link with us prior the interview. It will be nice if you have a good commit history (do not put everything in a single commit).
-
-# Interview task
-We will look at your implementation, discuss it and modify it a bit.
