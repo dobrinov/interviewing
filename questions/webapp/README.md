@@ -3,7 +3,7 @@ As a part of this interview stage we would like to give you a coding task which 
 
 What we expect from the final solution:
 
-* Push the code to a public git reposotory (Github, Gitlab, Bitbucket, etc.) and share a link with us prior the interview. It will be nice if you have a good commit history (do not put everything in a single commit).
+* Push the code to a public git repository (Github, Gitlab, Bitbucket, etc.) and share a link with us prior the interview. It will be nice if you have a good commit history (do not put everything in a single commit).
 * Instructions how to install and run it from a clean slate.
 * Tests for each application.
 
